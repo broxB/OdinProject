@@ -1,13 +1,36 @@
 body {
     background-color: antiquewhite;
     font-size: 18px;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
-.list-header {
+header {
+    background-color: rgb(197, 159, 108);
     text-align: center;
+    min-height: 50px;
+    margin: 0;
+}
+
+article {
+    flex: 1;
+}
+
+footer {
+    background-color: rgb(125, 137, 138);
+    text-align: center;
+    min-height: 50px;
+    padding: 20px;
+    margin: 0;
+}
+
+footer a{
+    font-size: 22px;
 }
 
 .list {
-    background-color: black;
+    margin: 15px 15px;
     color: cadetblue;
 }
