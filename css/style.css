@@ -1,0 +1,13 @@
+body {
+    background-color: antiquewhite;
+    font-size: 18px;
+}
+
+.list-header {
+    text-align: center;
+}
+
+.list {
+    background-color: black;
+    color: cadetblue;
+}
