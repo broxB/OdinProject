@@ -1,5 +1,6 @@
 body {
-    background-color: antiquewhite;
+    background-color: #CDE7B0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     min-height: 100vh;
     margin: 0;
@@ -8,29 +9,48 @@ body {
 }
 
 header {
-    background-color: rgb(197, 159, 108);
+    background-color: #59594A;
+    color: wheat;
     text-align: center;
     min-height: 50px;
-    margin: 0;
 }
 
-article {
+header a {
+    color: wheat;
+}
+
+main {
     flex: 1;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+main img {
+    max-width: 60vw;
+    max-height: 60vh;
 }
 
 footer {
-    background-color: rgb(125, 137, 138);
+    background-color: #888888;
+    color: wheat;
     text-align: center;
     min-height: 50px;
     padding: 20px;
-    margin: 0;
 }
 
-footer a{
+footer a {
+    color: wheat;
+}
+.fun-background {
+    background-image: url(../img/princess.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-link{
     font-size: 22px;
 }
 
 .list {
-    margin: 15px 15px;
-    color: cadetblue;
+    color: black;
 }
